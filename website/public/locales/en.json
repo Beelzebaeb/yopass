@@ -61,9 +61,8 @@
     "dialogCancel": "Cancel"
   },
   "attribution": {
-    "createdBy": "Created by",
     "translatedBy": "Translated by",
-    "translatorName": "",
+    "translatorName": "BUI SecOps",
     "translatorLink": ""
   },
   "expiration": {
@@ -74,7 +73,7 @@
   },
   "features": {
     "title": "Share secrets securely with ease",
-    "subtitle": "Yopass is created to reduce the amount of clear text passwords stored in email and chat conversations by encrypting and generating a short lived link which can only be viewed once.",
+    "subtitle": "The BUI secret sharing service is created to reduce the amount of clear text passwords stored in email and chat conversations by encrypting and generating a short lived link which can only be viewed once.",
     "featureEndToEndTitle": "End-to-end encryption",
     "featureEndToEndText": "Encryption and decryption are being made locally in the browser. The key is never stored with yopass.",
     "featureSelfDestructionTitle": "Self destruction",

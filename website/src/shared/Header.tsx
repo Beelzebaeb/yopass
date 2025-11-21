@@ -24,7 +24,7 @@ export const Header = () => {
     <AppBar position="static" color="default" sx={{ marginBottom: 4 }}>
       <Toolbar>
         <Link href={home} color="inherit" underline="none">
-          <Typography variant="h6" component="div">
+          <Typography variant="h6" component="div" sx={{ paddingLeft: 1 }}>
             <Box
               sx={{
                 verticalAlign: 'middle',

@@ -32,15 +32,17 @@ services:
       - "11211"
 
   yopass:
-    image: jhaals/yopass
+    image: buisecrets
     restart: always
     environment:
-      - VIRTUAL_HOST=subdomain.yourdomain.tld
-      - LETSENCRYPT_HOST=subdomain.yourdomain.tld
-      - LETSENCRYPT_EMAIL=mail@yourdomain.tld
+      - VIRTUAL_HOST=localhost
+      - LETSENCRYPT_HOST=localhost
+      - LETSENCRYPT_EMAIL=localhost
     command: "--memcached=memcached:11211 --port 80"
     expose:
       - "80"
+    depends_on:
+      - memcached
 
 # yamllint disable rule:empty-values
 volumes:

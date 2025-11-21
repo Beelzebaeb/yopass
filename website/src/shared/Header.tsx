@@ -24,13 +24,13 @@ export const Header = () => {
     <AppBar position="static" color="default" sx={{ marginBottom: 4 }}>
       <Toolbar>
         <Link href={home} color="inherit" underline="none">
-          <Typography variant="h6" component="div" sx={{ paddingLeft: 1, fontSize: '1rem'}}>
+          <Typography variant="h6" component="div" sx={{ paddingLeft: 1, fontSize: '1.2rem'}}>
             <Box
               sx={{
                 verticalAlign: 'middle',
                 paddingLeft: '5px',
-                width: '90px',
-                height: '45px',
+                width: '80px',
+                height: '56px',
               }}
               component="img"
               height="40"

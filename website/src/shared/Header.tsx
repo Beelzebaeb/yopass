@@ -37,7 +37,7 @@ export const Header = () => {
               alt=""
               src="favicon.png"
             />
-          Secrets Sharer
+            Secrets Sharer
           </Typography>
         </Link>
         <Stack

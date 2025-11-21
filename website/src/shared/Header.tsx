@@ -24,20 +24,20 @@ export const Header = () => {
     <AppBar position="static" color="default" sx={{ marginBottom: 4 }}>
       <Toolbar>
         <Link href={home} color="inherit" underline="none">
-          <Typography variant="h6" component="div" sx={{ paddingLeft: 1 }}>
+          <Typography variant="h6" component="div" sx={{ paddingLeft: 1, fontSize: '1rem'}}>
             <Box
               sx={{
                 verticalAlign: 'middle',
                 paddingLeft: '5px',
-                width: '40px',
-                height: '40px',
+                width: '90px',
+                height: '45px',
               }}
               component="img"
               height="40"
               alt=""
               src="favicon.png"
             />
-            Secrets Sharer
+            &nbsp; Secrets Sharer
           </Typography>
         </Link>
         <Stack
